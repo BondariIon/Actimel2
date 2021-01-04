@@ -11,7 +11,7 @@ button.addEventListener('click',(e)=>{
     else {
         email.value = 'Correct'
     }
-    if (password.value.length <=4){
+    if (password.value.length <=4 || password.value.length >=15){
         password.style.backgroundColor = 'red'
     } else {
         password.style.backgroundColor = 'green'
